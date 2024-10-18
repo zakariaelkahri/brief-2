@@ -85,7 +85,7 @@ nav {
 }
 
 .hero-content {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.788);
     padding: 2em;
     border-radius: 10px;
 }
@@ -280,6 +280,75 @@ section#collection {
     padding: 28px;
     color: rgba(0, 0, 0, 0.701);
 }
+
+
+/*CONTACT Page */
+.contactback{
+    background-color: #25abf3;
+    margin-inline: auto;
+    height: 1100px;
+
+}
+
+.contacttop{
+    padding: 70px 750px 50px;
+    margin-left:50px;
+    font-size: 30px;
+    color: black;
+
+}
+
+.contactcard{
+    background-color: color-mix(in hsl shorter hue, blue 50%, rgb(142, 142, 241) 50%);
+    margin-left: 750px;
+    margin-right: 750px;
+    padding: 0px 20px;
+    height: 35em;
+    border-radius: 20px;
+}
+
+.topcardtext{
+    color:white;
+    border-bottom: 4px white solid;
+    margin-inline: auto;
+    margin-top: 70px;
+    width: fit-content;
+    padding-top: 20px;
+
+
+}
+
+.texts{
+    padding: 50px 40px 0px ;
+    height: 32em;
+
+}
+
+.texts input{
+    width: 250px;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.text4 textarea{
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+
+}
+
+.submmit{
+    color: white;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 60px;
+    width: fit-content;
+    padding: 10px;
+    font-size: larger;
+    border-radius: 15px ;
+}
+
 
 /* Footer */
 footer {
