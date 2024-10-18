@@ -193,10 +193,11 @@ section#collection {
 /* gallery */
 
 .gallerysec{
-    background-image: url('images/blueflame2.jpg');
+    background-image: url('images/blue-flame.webp');
     background-size: cover;
     background-position:center;
     margin-inline: auto;
+    height: 1100px;
 }
 .mainbackground{
     display: flex;
@@ -210,20 +211,31 @@ section#collection {
     position: relative;
     margin-top: 35px;
     padding: 20px; 
-    background-color: white;
-    border: 2px solid red;
+    background-color: rgb(255, 255, 255);
     border-radius: 50px;
     justify-content: space-between;
     gap: 20px;
 }
 .search input{
     flex-grow: 1;
+
+}
+.border{
+    border: none;
+    color: black;
 }
 .gallerygrid {
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
-    gap: 50px;
+    gap:20px;
+    width: 60%;
+    margin: auto ;
+    margin-top:100px;
+}
+.art-item{
+    margin: 0 30px;
+
 }
 
 
